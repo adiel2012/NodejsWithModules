@@ -1,5 +1,5 @@
 # NodejsWithModules
-this project tries to load dinamically modules and dispatch according to its definition:
+This simple project tries to load dinamically modules and dispatch according to its definition:
 ex: http://localhost:8080/EAWB_endpoint1/other/parameters/aa/bb
 It is routed to 
 https://github.com/adiel2012/NodejsWithModules/blob/master/extensions/EAWB/HttpEndPoints/endpoint1.js
