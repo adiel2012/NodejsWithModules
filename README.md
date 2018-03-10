@@ -6,10 +6,10 @@ https://github.com/adiel2012/NodejsWithModules/blob/master/extensions/EAWB/HttpE
 
 
 module.exports={<br/>
-&#9;    key: "EAWB_endpoint1",<br/>
-&#9;    code: (req, res)=>{<br/>
-&#9;&#9;        res.writeHead(200, {'Content-Type': 'text/html'});<br/>
-&#9;&#9;        res.write("This is EAWB endpoint1");<br/>
-&#9;&#9;        res.end();<br/>
-&#9;    }<br/>
+&nbsp;    key: "EAWB_endpoint1",<br/>
+&nbsp;    code: (req, res)=>{<br/>
+&nbsp;&nbsp;        res.writeHead(200, {'Content-Type': 'text/html'});<br/>
+&nbsp;&nbsp;        res.write("This is EAWB endpoint1");<br/>
+&nbsp;&nbsp;        res.end();<br/>
+&nbsp;    }<br/>
 };<br/>
