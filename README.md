@@ -5,11 +5,11 @@ It is routed to
 https://github.com/adiel2012/NodejsWithModules/blob/master/extensions/EAWB/HttpEndPoints/endpoint1.js
 
 
-module.exports={
-    key: "EAWB_endpoint1",
-    code: (req, res)=>{
-        res.writeHead(200, {'Content-Type': 'text/html'});
-        res.write("This is EAWB endpoint1");
-        res.end();
-    }
-};
+module.exports={<br/>
+    key: "EAWB_endpoint1",<br/>
+    code: (req, res)=>{<br/>
+        res.writeHead(200, {'Content-Type': 'text/html'});<br/>
+        res.write("This is EAWB endpoint1");<br/>
+        res.end();<br/>
+    }<br/>
+};<br/>
